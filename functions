@@ -1,0 +1,63 @@
+if (Plr.Class == "SCP-106") {
+   SetClass(Plr, "Serpents Hand");
+}
+if (Plr.Class == "SCP-173") {
+   SetClass(Plr, "Serpents Hand");
+}
+if (Plr.Class == "SCP-096") {
+   SetClass(Plr, "Serpents Hand");
+}
+if (Plr.Class == "SCP-457") {
+   SetClass(Plr, "Serpents Hand");
+}
+if (Plr.Class == "SCP-049") {
+   SetClass(Plr, "Serpents Hand");
+}
+if (Plr.Class == "SCP-049-2") {
+   SetClass(Plr, "Serpents Hand");
+}
+if (Plr.Class == "SCP-1507") {
+   SetClass(Plr, "Serpents Hand");
+}
+if (Plr.Class == "SCP-106") {
+    SetMaxHealth(Plr, 12000);
+    SetHealth(Plr, 12000);                    
+}
+if (Plr.Class == "SCP-049") {
+    SetMaxHealth(Plr, 4250);
+    SetHealth(Plr, 4250);                    
+}
+if (Plr.Class == "SCP-049-2") {
+    SetMaxHealth(Plr, 1000);
+    SetHealth(Plr, 1000);                    
+}
+if (Plr.Class == "SCP-457") {
+    SetMaxHealth(Plr, 1200);
+    SetHealth(Plr, 1200);                    
+}
+if (Plr.Class == "SCP-1507") {
+    SetMaxHealth(Plr, 1000);
+    SetHealth(Plr, 1000);                    
+}
+if (Plr.Class == "SCP-096") {
+    SetMaxHealth(Plr, 3500);
+    SetHealth(Plr, 3500);                    
+}
+if (Plr.Class == "SCP-173") {
+    SetMaxHealth(Plr, 10000);
+    SetHealth(Plr, 10000);                    
+}
+if (Plr.Class == "Class-D") {
+    var rnum = rand(1, 10);
+    if (rnum == 5) {
+        SetClass(Plr, "Serpents Hand");
+    }
+} 
+if (Plr.Class == "Class-D") {
+    var rnum = rand(1, 15);
+    if (rnum == 5) {
+        SetClass(Plr, "SCP-173");
+    }
+} 
+SetAudioId("rbxassetid://5868469961");
+PlayAudio();
